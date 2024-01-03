@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Assignment 2</title>
+  </head>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    table:not(:last-child) {
+      margin-bottom: 50px;
+    }
+
+    .table-center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .empty-box {
+      color: transparent;
+    }
+  </style>
+  <body>
+    <!-- Table 1 -->
+    <table class="table-center" style="width: 50%">
+      <tr>
+        <td style="text-align: left">left</td>
+        <td style="text-align: center">center</td>
+        <td style="text-align: right">right</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">left</td>
+        <td style="text-align: center">center</td>
+        <td style="text-align: right">right</td>
+      </tr>
+      <tr>
+        <td style="text-align: left">left</td>
+        <td style="text-align: center">center</td>
+        <td style="text-align: right">right</td>
+      </tr>
+    </table>
+
+    <!-- Table 2  -->
+    <table class="table-center" style="width: 50%">
+      <tr>
+        <th colspan="6">HEADING</th>
+      </tr>
+      <tr>
+        <th colspan="6" class="empty-box">Heading</th>
+      </tr>
+      <tr>
+        <td rowspan="4" class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box">Empty box</td>
+        <td colspan="3" rowspan="2" class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box">Empty box</td>
+
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td colspan="6" class="empty-box">Empty box</td>
+      </tr>
+    </table>
+
+    <!-- Table 3 -->
+
+    <table class="table-center" style="width: 50%">
+      <tr>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box" rowspan="4">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box" rowspan="4">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box">Empty box</td>
+      </tr>
+      <tr>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+        <td class="empty-box">Empty box</td>
+      </tr>
+    </table>
+
+    <!-- Table 4 -->
+    <table class="table-center" style="width: 50%">
+      <tr>
+        <td
+          colspan="4"
+          style="background-color: #617541; padding: 20px; color: transparent"
+        >
+          Empty box
+        </td>
+      </tr>
+
+      <tr>
+        <td style="background-color: white; padding: 15px" class="empty-box">
+          Empty box
+        </td>
+        <td style="background-color: white">
+          <img
+            src="Capture.PNG"
+            style="
+              height: 80%;
+              width: 92%;
+              margin-top: 35px;
+              margin-bottom: 35px;
+            "
+          />
+        </td>
+        <td style="background-color: white; padding: 10px" class="empty-box">
+          Empty box
+        </td>
+      </tr>
+
+      <tr>
+        <td
+          colspan="4"
+          style="background-color: #25355f; padding: 10px; color: transparent"
+        >
+          Empty box
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
